@@ -81,7 +81,6 @@ function ajaxLoad(jsonPath) {
   $.ajax(jsonPath, ajaxSettings).then(data => {
     data.forEach(hornsObj => {
       let horns = new Horns(hornsObj);
-
       horns.render();
     });
   });
@@ -96,9 +95,7 @@ $(document).ready(function () {
       hornObj.render();
     });
   });
-  console.log(hornsArray);
 });
-
 
 $(document).ready(function () {
   $('#byHorns').on('click', function () {
@@ -129,3 +126,13 @@ function compareHorns(a, b) {
   return comparison;
 }
 
+$(document).ready(function () {
+  if ($('#byTitle').is(':checked')) {
+    hornsArray.sort(compareTitles);
+    $('section').remove();
+    hornsArray.forEach(hornObj => {
+      hornObj.render();
+    });
+  }
+
+});
