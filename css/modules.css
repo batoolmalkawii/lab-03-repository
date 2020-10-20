@@ -1,6 +1,6 @@
 section{
     float: left;
-    width: 45%;
+    width: 20%;
     margin: 20px;
     padding: 10px;
     margin-bottom: 50px;
@@ -9,9 +9,15 @@ section{
 }
 
 section img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: 2px solid turquoise;
+    border-radius: 70px;
+}
+
+section p{
+    width: 200px;
+    margin: auto;
 }
 
 #photo-template{

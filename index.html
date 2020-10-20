@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layouts.css">
     <link rel="stylesheet" href="css/modules.css">
+    <link rel="stylesheet" href="css/flex.css">
+
   </head>
 
   <body>
@@ -22,14 +24,14 @@
         <input type="radio" id="byHorns" name="sort" value="horns">
         <label for="byHorns">Sort By Horns</label>
       </div>
+      <div id="pagesSection">
+        <ul>
+            <li id="page1">Page1</li>
+            <li id="page2">Page2</li>
+        </ul>
+    </div>
     </header>
     <main>
-        <div id="pagesSection">
-            <ul>
-                <li id="page1">Page1</li>
-                <li id="page2">Page2</li>
-            </ul>
-        </div>
       <section id="photo-template">
         <h2>{{title}}</h2>
         <img src='{{image_url}}' alt="">

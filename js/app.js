@@ -6,7 +6,6 @@ function Horns(horns) {
   for (const key in horns) {
     this[key] = horns[key];
   }
-
 }
 
 let pushedKeywords = [];
@@ -23,8 +22,8 @@ Horns.prototype.render = function () {
   this.renderKeywords();
   let templateEl = $('<section></section>');
   templateEl.html(templateHTML);
-  // templateEl.attr('class', 'template')
   let template = $(templateEl).html();
+  templateEl.attr('class', this.keyword);
   let html = Mustache.render(template, this);
   templateEl.html(html);
   $('main').append(templateEl);
