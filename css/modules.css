@@ -1,0 +1,47 @@
+section{
+    float: left;
+    width: 20%;
+    margin: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+section img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid turquoise;
+    border-radius: 70px;
+}
+
+section p{
+    width: 200px;
+    margin: auto;
+}
+
+#photo-template{
+    display: none;
+}
+
+#sortSection{
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: normal;
+}
+
+#pagesSection ul li{
+    display: inline;
+    font-size: 15px;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: normal;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: 1px solid turquoise;
+    font-weight: bold;
+
+}

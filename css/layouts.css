@@ -1,0 +1,31 @@
+
+header{
+    font-size: 50px;
+    background-image: url('../img/header_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+select{
+    background-color:white;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0.5px solid turquoise;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 18px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    clear: both;
+}
+
+h1{
+    padding-bottom: 20px;
+}
